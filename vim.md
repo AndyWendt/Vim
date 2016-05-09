@@ -41,6 +41,12 @@ Vim has several different modes
 
 * `d` to delete
 
+## Editing 
+
+* `di+(` for deleting everything in between paranthesis
+* `di+"` for deleting everything in between quotes
+* `di+'` for deleting everything in between single-quotes
+
 ## Movement
 
 * left `h`
