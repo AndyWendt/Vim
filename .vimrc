@@ -70,9 +70,17 @@ map <A-c> "+y					"control shift c for copying to system clipboard
 "
 " Control P 
 "
-nmap <c-R> :CtrlPBufTag<cr>			"show the symbols or tags in file 
-nmap <c-E> :CtrlPMRUFiles<cr>			"show recently used files
-let g:ctrlp_custom_ignore = 'node_modules\DS_Store\|git'
+
+" show buffer tags and symbols in the file
+nmap <c-R> :CtrlPBufTag<cr>		
+
+" show recently used files
+nmap <c-E> :CtrlPMRUFiles<cr>
+
+" ignore certain files and directories
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\idea'
+
+" reorder the match window and place it at the top
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
 "
