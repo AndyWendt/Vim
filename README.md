@@ -4,3 +4,8 @@
 
 * gvim
 * ctags
+
+
+## System changes
+
+* swap `esc` with `caps lock`
