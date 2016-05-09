@@ -99,6 +99,8 @@ Vim has several different modes
 ## CtrlP
 
 * `ctrl+d` while in pane to search only for file names
+* `ctrl+r` show symbols or tags while in the file
+* `ctrl+` show recently used files
 
 ## Mappings
 
