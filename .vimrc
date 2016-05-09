@@ -62,6 +62,8 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highlight removal.
 nmap <Leader><space> :nohlsearch<cr>
 
+nmap <Leader>f :tag<space>
+
 map <A-v> "+gP					"control shift v for pasting from system clipboard
 map <A-c> "+y					"control shift c for copying to system clipboard
 
