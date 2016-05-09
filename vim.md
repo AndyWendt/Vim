@@ -49,6 +49,7 @@ Vim has several different modes
 * down `j`
 * top `gg`
 * `ctrl+^` go back to previous edit point or location
+* `ctrl+d` page down
 
 ## Misc
 
@@ -57,6 +58,7 @@ Vim has several different modes
 * Source current file `:so %`
 * `.` references last command
 * `,ev` edit vim config
+* 
 
 
 ## Viewing
