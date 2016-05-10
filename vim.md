@@ -69,7 +69,7 @@ Vim has several different modes
 * Source current file `:so %`
 * `.` references last command
 * `,ev` edit vim config
-* 
+* `:!<command>` to run commandline command
 
 
 ## Viewing
