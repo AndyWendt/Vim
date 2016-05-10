@@ -80,7 +80,7 @@ nmap <c-R> :CtrlPBufTag<cr>
 nmap <c-E> :CtrlPMRUFiles<cr>
 
 " ignore certain files and directories
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\idea'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|idea\|bower_components'
 
 " reorder the match window and place it at the top
 let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
