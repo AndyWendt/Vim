@@ -91,6 +91,8 @@ let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 nmap <A-1> :NERDTreeToggle<cr>				"Toggle Nerd Tree
 
 let NERDTreeHijackNetrw = 0
+let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need to see them somewhere
+
 
 "-------------Auto-Commands--------------"
 
