@@ -18,7 +18,10 @@
 
 * `NERDTreeToggle`
 * `?` find options
-* `m` move file
+* `m` move node
+* `a` add node
+* `d` delete node
+* `c` copy node
 
 ## Buffers
 * `:bp` buffer previous
