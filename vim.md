@@ -18,6 +18,7 @@
 
 * `NERDTreeToggle`
 * `?` find options
+* `m` move file
 
 ## Buffers
 * `:bp` buffer previous
