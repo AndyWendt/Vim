@@ -25,7 +25,8 @@
 
 ## Surround.Vim
 
-* `cs<find><replace>` change sorround e.g.: `cs"'` or `cs"` to replace with nothing
+* `cs<find><replace>` change sorround e.g.: `cs"'` 
+* `ds"` to delete surounding
 
 ## Buffers
 * `:bp` buffer previous
