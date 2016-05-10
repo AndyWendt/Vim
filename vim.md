@@ -23,6 +23,10 @@
 * `d` delete node
 * `c` copy node
 
+## Surround.Vim
+
+* `cs<find><replace>` change sorround e.g.: `cs"'` or `cs"` to replace with nothing
+
 ## Buffers
 * `:bp` buffer previous
 * `:ls` list all buffers
