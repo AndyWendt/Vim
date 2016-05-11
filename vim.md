@@ -23,6 +23,7 @@
 * `a` add node
 * `d` delete node
 * `c` copy node
+* `r` refresh listing
 
 
 ## Buffers
