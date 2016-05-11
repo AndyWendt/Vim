@@ -27,10 +27,6 @@
 * `d` delete node
 * `c` copy node
 
-## Surround.Vim
-
-* `cs<find><replace>` change sorround e.g.: `cs"'` 
-* `ds"` to delete surounding
 
 ## Buffers
 * `:bp` buffer previous
@@ -63,6 +59,11 @@ Vim has several different modes
 * `di+(` for deleting everything in between paranthesis
 * `di+"` for deleting everything in between quotes
 * `di+'` for deleting everything in between single-quotes
+
+#### Surround.Vim
+
+* `cs<find><replace>` change sorround e.g.: `cs"'` 
+* `ds"` to delete surounding
 
 
 ## Movement
