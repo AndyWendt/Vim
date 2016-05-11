@@ -1,4 +1,3 @@
-
 "----------Terminal Vim changes
 set nocompatible
 
@@ -64,8 +63,11 @@ nmap <Leader><space> :nohlsearch<cr>
 
 nmap <Leader>f :tag<space>
 
-map <A-v> "+gP					"control shift v for pasting from system clipboard
-map <A-c> "+y					"control shift c for copying to system clipboard
+vnoremap <A-v> "+gP					"control shift v for pasting from system clipboard
+vnoremap <A-c> "+y					"control shift c for copying to system clipboard
+
+nmap <Leader>f :tag<space>
+nmap <Leader>ct :!ctags -R --exlude=node_modules --exclude=bower_components --exclude=public<cr>
 
 "-------------Plugins--------------"
 
