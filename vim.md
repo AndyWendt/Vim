@@ -6,14 +6,6 @@
 * Write file and quit `:wq`
 * Edit a file `:e <filename>` (tab autocomplete works)
 
-## Ctags
-
-* `:!ctags -R`
-* `:tag` to search for a tag (method)
-* `:tn` to go to next tag
-* `:tp` to go to previous tag
-* `:ts` to select from all of the tags available
-
 ## Vinegar
 
 * `-` show files in current directory using vinegar plugin 
@@ -127,7 +119,14 @@ Vim has several different modes
 * search `/term`
 * next `n`
 * turn off search `,space` actually leader but it works
-* 
+
+### Ctags
+
+* `:!ctags -R`
+* `:tag` to search for a tag (method)
+* `:tn` to go to next tag
+* `:tp` to go to previous tag
+* `:ts` to select from all of the tags available
 
 ## copy pasta
  **Visual Mode**
