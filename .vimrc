@@ -62,9 +62,12 @@ nmap <Leader><space> :nohlsearch<cr>
 
 nmap <Leader>f :tag<space>				"search for a tag using ctags
 
-vnoremap <A-v> "+gP					"control shift v for pasting from system clipboard
-vnoremap <A-c> "+y					"control shift c for copying to system clipboard
+vnoremap <A-v> "+gP					"alt v for pasting from system clipboard
+vnoremap <A-c> "+y					"alt c for copying to system clipboard
 map <A-a> ggVG						"select all
+
+map <A-v> "+gP					"alt v for pasting from system clipboard
+map <A-c> "+y					"alt c for copying to system clipboard
 
 nmap <Leader>f :tag<space>
 nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --exclude=public<cr>
