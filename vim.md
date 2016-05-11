@@ -161,7 +161,7 @@ Vim has several different modes
 
 * `ctrl+d` while in pane to search only for file names
 * `ctrl+r` show symbols or tags while in the file
-* `ctrl+` show recently used files
+* `ctrl+e` show recently used files
 * `F5` to refresh
 
 ## Mappings
