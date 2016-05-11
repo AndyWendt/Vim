@@ -91,6 +91,7 @@ Vim has several different modes
 * `.` references last command
 * `,ev` edit vim config
 * `:!<command>` to run commandline command
+* `:reg` to registers (clipboard etc)
 
 
 ## Viewing
