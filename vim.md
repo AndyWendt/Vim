@@ -8,6 +8,7 @@
 
 ## Ctags
 
+* `:!ctags -R`
 * `:tag` to search for a tag (method)
 * `:tn` to go to next tag
 * `:tp` to go to previous tag
