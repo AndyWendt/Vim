@@ -147,6 +147,7 @@ Vim has several different modes
 * `:tp` to go to previous tag
 * `:ts` to select from all of the tags available
 * `ctrl+]` to go to method from usage. e.g. `$this->myMethod()` goes to `myMethod()` definition
+* `,ct` for rebuilding tag cache
 
 ## copy pasta
  **Visual Mode**
