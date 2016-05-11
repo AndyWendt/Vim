@@ -31,6 +31,7 @@
 * `:bd` close tab (buffer)  buffer delete
 * `:bp` previous buffer
 * `:+up` to cycle through previous commands
+* `:bufdo bd!` close every buffer
 
 
 ## Modes 
