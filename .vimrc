@@ -112,7 +112,7 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 "-------------Auto-Commands--------------"
 nmap <Leader>lr :e app/http/routes.php<cr>
 nmap <Leader>lm :!php artisan make:
-
+nmap <Leader>lfa :CtrlP<cr>app/
 
 "-------------Auto-Commands--------------"
 
