@@ -72,6 +72,8 @@ map <A-c> "+y					"alt c for copying to system clipboard
 nmap <Leader>f :tag<space>
 nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --exclude=public<cr>
 
+
+
 "-------------Plugins--------------"
 
 "
@@ -106,6 +108,11 @@ let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need t
 
 set grepprg=ag						"use ag for search
 let g:grep_cmd_opts = '--line-numbers --noheading'
+
+"-------------Auto-Commands--------------"
+nmap <Leader>lr :e app/http/routes.php<cr>
+nmap <Leader>lm :!php artisan make:
+
 
 "-------------Auto-Commands--------------"
 
