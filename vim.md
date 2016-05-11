@@ -5,6 +5,7 @@
 * Write file `:w <fileName>`
 * Write file and quit `:wq`
 * Edit a file `:e <filename>` (tab autocomplete works)
+* `wa` for writing all files
 
 ## Vinegar
 
@@ -126,6 +127,13 @@ Vim has several different modes
 ### folder wide
 
 * `:Ag '<search'` to search for occurence 
+
+### Search and replace
+* `:Gsearch` 
+	* replace in results file
+		* select all lines
+		* `:s/<query>/<replace>`
+		* `:Greplace` to run the replace
 
 ### Ctags
 
