@@ -127,6 +127,7 @@ Vim has several different modes
 * `:tn` to go to next tag
 * `:tp` to go to previous tag
 * `:ts` to select from all of the tags available
+* `ctrl+]` to go to method from usage. e.g. `$this->myMethod()` goes to `myMethod()` definition
 
 ## copy pasta
  **Visual Mode**
