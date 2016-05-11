@@ -9,6 +9,9 @@
 ## Ctags
 
 * `:tag` to search for a tag (method)
+* `:tn` to go to next tag
+* `:tp` to go to previous tag
+* `:ts` to select from all of the tags available
 
 ## Vinegar
 
@@ -55,6 +58,7 @@ Vim has several different modes
 ### Selecting 
 
 * `vi` for selecting inside (quotes etc) so `vi"` to select inside `""`
+* `va` for selecting all include delimeter so `va{` will select the braces and everything inside.
 
 
 ### Changing
