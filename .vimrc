@@ -1,106 +1,106 @@
-"----------T
-set nocompat
+"----------Terminal Vim changes
+set nocompatible
 
 
-"-----------
-so ~/.vim/pl
+"----------- Pull in plugins ------------------
+so ~/.vim/plugins.vim
 
 
-"-----------
-syntax enabl
-set backspac
-let mapleade
-set number  
-
-
-
-
-"-----------
-colorscheme 
-
-set t_CO=256
-set guifont=
-set linespac
-
-set guioptio
-set guioptio
-
-set guioptio
-set guioptio
-set guioptio
-set guioptio
+"------------General----
+syntax enable
+set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
+let mapleader = ',' 						    	"The default is \, but a comma is much better.
+set number								"Let's activate line numbers.
 
 
 
 
-"-----------
-set hlsearch
-set incsearc
+"-------------Visuals--------------"
+colorscheme atom-dark
+
+set t_CO=256								"Use 256 colors. This is useful for Terminal Vim.
+set guifont=Source\ Code\ Pro\ 13						"Set the default font family and size.
+set linespace=12 							"Macvim-specific line-height.
+
+set guioptions -=m							"disable menu bar
+set guioptions -=T							"disable toolbar 
+
+set guioptions-=l                                                       "Disable Gui scrollbars.
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+
+hi LineNr guibg=bg
+
+"-------------Search--------------"
+set hlsearch								"Highlight all matched terms.
+set incsearch								"Incrementally highlight, as we type.
 
 
 
 
-"-----------
-set splitbel
-set splitrig
+"-------------Split Management--------------"
+set splitbelow 								"Make splits default to below...
+set splitright								"And to the right. This feels more natural.
 
-"We'll set s
-nmap <C-J> <
-nmap <C-K> <
-nmap <C-H> <
-nmap <C-L> <
-
-
+"We'll set simpler mappings to switch between splits.
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-H> <C-W><C-H>
+nmap <C-L> <C-W><C-L>
 
 
-"-----------
 
-"Make it eas
-nmap <Leader
 
-"Add simple 
-nmap <Leader
+"-------------Mappings--------------"
 
-nmap <Leader
+"Make it easy to edit the Vimrc file.
+nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
-vnoremap <A-
-vnoremap <A-
+"Add simple highlight removal.
+nmap <Leader><space> :nohlsearch<cr>
 
-nmap <Leader
-nmap <Leader
+nmap <Leader>f :tag<space>				"search for a tag using ctags
 
-"-----------
+vnoremap <A-v> "+gP					"control shift v for pasting from system clipboard
+vnoremap <A-c> "+y					"control shift c for copying to system clipboard
+map <A-a> ggVG						"select all
+
+nmap <Leader>f :tag<space>
+nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --exclude=public<cr>
+
+"-------------Plugins--------------"
 
 "
 " Control P 
 "
 
-" show buffe
-nmap <c-R> :
+" show buffer tags and symbols in the file
+nmap <c-R> :CtrlPBufTag<cr>		
 
-" show recen
-nmap <c-E> :
+" show recently used files
+nmap <c-E> :CtrlPMRUFiles<cr>
 
-" ignore cer
-let g:ctrlp_
+" ignore certain files and directories
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|idea\|bower_components'
 
-" reorder th
-let g:ctrlp_
+" reorder the match window and place it at the top
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 
 "
 " Nerd Tree 
 "
-nmap <A-1> :
+nmap <A-1> :NERDTreeToggle<cr>				"Toggle Nerd Tree
 
-let NERDTree
-let NERDTree
+let NERDTreeHijackNetrw = 0
+let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need to see them somewhere
 
 
-"-----------
+"-------------Auto-Commands--------------"
 
-"Automatical
+"Automatically source the Vimrc file on save.
 
-augroup auto
-	auto
-	auto
+augroup autosourcing
+	autocmd!
+	autocmd BufWritePost .vimrc source %
 augroup END
