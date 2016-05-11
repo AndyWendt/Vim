@@ -52,6 +52,12 @@ Vim has several different modes
 
 ## Editing 
 
+
+### Changing
+
+* `ci` stands for change inside and puts you in insert mode
+
+
 ### Deleting
 
 `di` stands for delete inside
