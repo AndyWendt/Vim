@@ -6,6 +6,7 @@
 * Write file and quit `:wq`
 * Edit a file `:e <filename>` (tab autocomplete works)
 * `wa` for writing all files
+* `:e!` revert to last save
 
 ## Vinegar
 
