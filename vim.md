@@ -52,10 +52,14 @@ Vim has several different modes
 
 ## Editing 
 
+### Selecting 
+
+* `vi` for selecting inside (quotes etc) so `vi"` to select inside `""`
+
 
 ### Changing
 
-* `ci` stands for change inside and puts you in insert mode
+* `ci` stands for change inside and puts you in insert mode (i.e. `ci"`)
 
 
 ### Deleting
