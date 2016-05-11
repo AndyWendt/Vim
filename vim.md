@@ -6,6 +6,10 @@
 * Write file and quit `:wq`
 * Edit a file `:e <filename>` (tab autocomplete works)
 
+## Ctags
+
+* `:tag` to search for a tag (method)
+
 ## Vinegar
 
 * `-` show files in current directory using vinegar plugin 
