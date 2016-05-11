@@ -120,6 +120,11 @@ Vim has several different modes
 * search `/term`
 * next `n`
 * turn off search `,space` actually leader but it works
+* ':copen"  show all matches
+
+### folder wide
+
+* `:Ag '<search'` to search for occurence 
 
 ### Ctags
 
