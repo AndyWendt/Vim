@@ -41,3 +41,9 @@ snippet rdelete
 	
 snippet rpatch
 	Route::patch('${1}', '${2}');
+	
+snippet rga
+	Route::get('${1}', function () {
+		${2}
+	});
+
