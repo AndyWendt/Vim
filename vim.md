@@ -1,5 +1,9 @@
 # Vim
 
+## Folds
+
+* `zR` open all folds
+
 ## File commands 
 
 * Write file `:w <fileName>`
