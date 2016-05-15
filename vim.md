@@ -125,6 +125,7 @@ Vim has several different modes
 ## Search 
 * search `/term`
 * next `n`
+* previous `N`
 * turn off search `,space` actually leader but it works
 * ':copen"  show all matches
 
