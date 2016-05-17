@@ -71,7 +71,7 @@ map <A-v> "+gP					"alt v for pasting from system clipboard
 map <A-c> "+y					"alt c for copying to system clipboard
 
 nmap <Leader>f :tag<space>
-nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --exclude=public<cr>
+nmap <Leader>ct :!ctags -R --exclude=node_modules\|bower_components\|public --PHP-kinds=+cf<cr>
 
 
 
@@ -110,7 +110,7 @@ let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need t
 set grepprg=ag						"use ag for search
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
-"-------------Auto-Commands--------------"
+"-------------Laravel Helpers--------------"
 nmap <Leader>lr :e app/http/routes.php<cr>
 nmap <Leader>lm :!php artisan make:
 nmap <Leader>lfa :CtrlP<cr>app/
@@ -122,4 +122,34 @@ nmap <Leader>lfa :CtrlP<cr>app/
 augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %
+augroup END
+
+
+"------------- Php improvements --------------"
+
+"organize namespaces by length
+vmap <Leader>su ! awk '{ print length(), $0 \| "sort -n \| cut -d\\  -f2-"}'<cr> 
+
+function! IPhpInsertUse()
+    call PhpInsertUse()
+    call feedkeys('a',  'n')
+endfunction
+autocmd FileType php inoremap <Leader>n <Esc>:call IPhpInsertUse()<CR>
+autocmd FileType php noremap <Leader>n :call PhpInsertUse()<CR>
+
+function! IPhpExpandClass()
+    call PhpExpandClass()
+    call feedkeys('a', 'n')
+endfunction
+autocmd FileType php inoremap <Leader>nf <Esc>:call IPhpExpandClass()<CR>
+autocmd FileType php noremap <Leader>nf :call PhpExpandClass()<CR>
+
+function! PhpSyntaxOverride()
+  hi! def link phpDocTags  phpDefine
+  hi! def link phpDocParam phpType
+endfunction
+
+augroup phpSyntaxOverride
+  autocmd!
+  autocmd FileType php call PhpSyntaxOverride()
 augroup END
