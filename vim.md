@@ -58,13 +58,14 @@ Vim has several different modes
 
 ## Editing 
 
+* `r` to replace under cursor (e.g. `r"'` to replace `"` with `'`)
+
 ### Selecting 
 
 * `vi` for selecting inside (quotes etc) so `vi"` to select inside `""`
 * `va` for selecting all include delimeter so `va{` will select the braces and everything inside.
 
-
-### Changing
+### Sorroundings
 
 * `ci` stands for change inside and puts you in insert mode (i.e. `ci"`)
 * `ds` stands for delete sorrounding
