@@ -67,9 +67,10 @@ Vim has several different modes
 
 ### Sorroundings
 
-* `ci` stands for change inside and puts you in insert mode (i.e. `ci"`)
-* `ds` stands for delete sorrounding
-* `cs` stands for change sorrounding
+* `ci` change inside and puts you in insert mode (i.e. `ci"`)
+* `ds` delete sorrounding
+* `cs` change sorrounding
+* `dst` delete sorrounding tag
 
 
 ### Deleting
