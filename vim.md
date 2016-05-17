@@ -124,6 +124,7 @@ Vim has several different modes
 
 * `ctrl+h`  left split
 * `ctrl+l`  right split
+* `sbuffer 3" split for buffer 3
 
 
 
@@ -182,6 +183,7 @@ Vim has several different modes
 * `,su` sort namespaces by length in selection
 * `,n` import namespace
 * `,nf` use fully qualified namespace
+* `ctrl+n` autocomplete choose item then keep typing
 
 ## vim special character mapping
 
