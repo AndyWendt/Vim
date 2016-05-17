@@ -56,6 +56,7 @@ nmap <C-L> <C-W><C-L>
 
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
+nmap <Leader>es :e ~/.vim/snippets/
 
 "Add simple highlight removal.
 nmap <Leader><space> :nohlsearch<cr>
