@@ -175,6 +175,13 @@ Vim has several different modes
 
 * `nmap` = normal mode mapping
 * `imap` = insert mode mapping
+* 
+
+## PHP
+
+* `,su` sort namespaces by length in selection
+* `,n` import namespace
+* `,nf` use fully qualified namespace
 
 ## vim special character mapping
 
