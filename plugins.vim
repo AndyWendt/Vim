@@ -13,6 +13,7 @@ Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'  
 Plugin 'msanders/snipmate.vim'  
 Plugin 'tpope/vim-surround'  
+Plugin 'StanAngeloff/php.vim'  
 
 
 call vundle#end()            " required
