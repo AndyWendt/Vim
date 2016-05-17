@@ -67,6 +67,8 @@ Vim has several different modes
 ### Changing
 
 * `ci` stands for change inside and puts you in insert mode (i.e. `ci"`)
+* `ds` stands for delete sorrounding
+* `cs` stands for change sorrounding
 
 
 ### Deleting
