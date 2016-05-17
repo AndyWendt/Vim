@@ -14,6 +14,7 @@ Plugin 'skwp/greplace.vim'
 Plugin 'msanders/snipmate.vim'  
 Plugin 'tpope/vim-surround'  
 Plugin 'StanAngeloff/php.vim'  
+Plugin 'arnaud-lb/vim-php-namespace'  
 
 
 call vundle#end()            " required
