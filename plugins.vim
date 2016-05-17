@@ -15,6 +15,7 @@ Plugin 'msanders/snipmate.vim'
 Plugin 'tpope/vim-surround'  
 Plugin 'StanAngeloff/php.vim'  
 Plugin 'arnaud-lb/vim-php-namespace'  
+Plugin 'ervandew/supertab'  
 
 
 call vundle#end()            " required
