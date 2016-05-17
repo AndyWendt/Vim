@@ -59,6 +59,7 @@ Vim has several different modes
 ## Editing 
 
 * `r` to replace under cursor (e.g. `r"'` to replace `"` with `'`)
+* `J` to join bottom line to current line
 
 ### Selecting 
 
