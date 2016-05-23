@@ -62,6 +62,7 @@ Vim has several different modes
 * `J` to join bottom line to current line
 * `o` line below
 * `O` line above
+* `shift+>` or `shift+<` for indenting visually selected
 
 ### Selecting 
 
