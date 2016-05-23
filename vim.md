@@ -60,6 +60,8 @@ Vim has several different modes
 
 * `r` to replace under cursor (e.g. `r"'` to replace `"` with `'`)
 * `J` to join bottom line to current line
+* `o` line below
+* `O` line above
 
 ### Selecting 
 
