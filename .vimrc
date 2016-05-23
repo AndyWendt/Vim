@@ -113,6 +113,14 @@ let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need t
 set grepprg=ag						"use ag for search
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
+
+"
+" stephpy/vim-php-cs-fixer 
+"
+let g:php_cs_fixer_level = "psr2" 
+nnoremap <silent><leader>pf :call PhpCsFixerFixDirectory()<CR>
+
+
 "-------------Laravel Helpers--------------"
 nmap <Leader>lr :e app/http/routes.php<cr>
 nmap <Leader>lm :!php artisan make:
