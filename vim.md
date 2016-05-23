@@ -164,6 +164,7 @@ Vim has several different modes
 * `yy` for yank line
 * `p` for paste
 * `d` for cut
+* `ddp` for switching lines of text
 
 
 ## CtrlP
