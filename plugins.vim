@@ -11,13 +11,14 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'  
+Plugin 'garbas/vim-snipmate'  
 Plugin 'tpope/vim-surround'  
 Plugin 'StanAngeloff/php.vim'  
 Plugin 'arnaud-lb/vim-php-namespace'  
 Plugin 'ervandew/supertab'  
-Plugin 'garbas/vim-snipmate'  
 Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim' 
+Plugin 'tomtom/tlib_vim'
+Plugin 'stephpy/vim-php-cs-fixer'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
