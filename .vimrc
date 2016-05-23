@@ -13,7 +13,7 @@ let mapleader = ',' 						    	"The default is \, but a comma is much better.
 set number								"Let's activate line numbers.
 
 set autowriteall                                                        "automatically save all files
-
+set complete=.,w,b,u                                                    "set desired autocompletion
 
 
 "-------------Visuals--------------"
@@ -66,7 +66,9 @@ nmap <Leader>f :tag<space>				"search for a tag using ctags
 
 vnoremap <A-v> "+gP					"alt v for pasting from system clipboard
 vnoremap <A-c> "+y					"alt c for copying to system clipboard
-map <A-a> ggVG						"select all
+
+" select all
+nmap <A-a> ggVG
 
 map <A-v> "+gP					"alt v for pasting from system clipboard
 map <A-c> "+y					"alt c for copying to system clipboard
