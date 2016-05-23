@@ -186,7 +186,7 @@ Vim has several different modes
 * `,n` import namespace
 * `,nf` use fully qualified namespace
 * `ctrl+n` autocomplete choose item then keep typing
-* `<Leader>pcd` php cs fixer on directory
+* `<Leader>pf` php cs fixer on directory
 
 ## vim special character mapping
 
