@@ -15,6 +15,7 @@ set number								"Let's activate line numbers.
 set autowriteall                                                        "automatically save all files
 set complete=.,w,b,u                                                    "set desired autocompletion
 
+set expandtab
 
 "-------------Visuals--------------"
 colorscheme atom-dark
