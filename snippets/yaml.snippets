@@ -1,0 +1,105 @@
+snippet sgete
+	get:
+		summary: ${1} Entity
+		description: Returns a $1 entity for the provided id
+		tags:
+			- ${2}
+		parameters:
+			- name: ${3}
+			in: path
+			required: true
+			description: The id of the $1 
+			type: string
+		responses:
+			200:
+				description: a $1 entity
+				schema:
+					type: object
+					items:
+						$ref: '#/definitions/${4}'
+
+snippet sgetc
+	get:
+		summary: ${1} Collection
+		description: Returns a $1 collection
+		tags:
+			- ${2}
+		responses:
+			200:
+				description: $1 collection
+				schema:
+					type: array
+					items:
+						$ref: '#/definitions/${3}'
+
+snippet sposte
+	post:
+		summary: ${1} Entity Create
+		description: $1 Entity Create
+		tags:
+			- ${2} 
+		parameters:
+			- name: body
+				in: body
+				required: true
+				schema:
+					type: object
+					items:
+						$ref: '#/definitions/${3}'
+		responses:
+			200:
+				description: a $1 entity
+				schema:
+					type: object
+					items:
+						$ref: '#/definitions/${4}'	
+
+snippet spute
+	put:
+		summary: ${1} Entity Modify
+		description: $1 Entity Modify
+		tags:
+			- ${2} 
+		parameters:
+			- name: ${3}
+				in: path
+				required: true
+				description: The id of the $1
+				type: string
+		  
+			- name: body
+				in: body
+				required: true
+				schema:
+					type: object
+					items:
+						$ref: '#/definitions/${4}'
+		responses:
+			204:
+				description: No content
+				headers: 
+					Content-Type: 
+						description: content type
+						type: string
+						default: text/html; charset=UTF-8
+
+snippet sdele
+	delete:
+		summary: ${1} Entity Delete
+		description: $1 Entity Delete
+		tags: 
+			- ${2}
+		parameters:
+			- name: ${3}
+				in: path
+				required: true
+				description: The $1 id 
+				type: string
+		responses:
+			204:
+				description: No content
+				headers: 
+					Content-Type: 
+						description: content type
+						type: string
+						default: text/html; charset=UTF-8
