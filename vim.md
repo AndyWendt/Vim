@@ -1,5 +1,8 @@
 # Vim
 
+* https://danielmiessler.com/study/vim/
+* http://stackoverflow.com/questions/8750275/vim-super-fast-navigation
+
 ## Folds
 
 * `zR` open all folds
