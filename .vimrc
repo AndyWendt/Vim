@@ -16,6 +16,8 @@ set autowriteall                                                        "automat
 set complete=.,w,b,u                                                    "set desired autocompletion
 
 set expandtab
+set tabstop=4
+set shiftwidth=4
 
 "-------------Visuals--------------"
 colorscheme atom-dark
