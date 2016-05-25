@@ -2,6 +2,7 @@
 
 * https://danielmiessler.com/study/vim/
 * http://stackoverflow.com/questions/8750275/vim-super-fast-navigation
+* http://nvie.com/posts/how-i-boosted-my-vim/
 
 ## Folds
 
