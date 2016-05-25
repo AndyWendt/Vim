@@ -10,7 +10,7 @@ snippet stype
 
 snippet sgete
 	get:
-		summary: ${1} Entity
+		summary: ${1:} Entity
 		description: Returns a $1 entity for the provided id
 		tags:
 			- ${2}
@@ -30,7 +30,7 @@ snippet sgete
 
 snippet sgetc
 	get:
-		summary: ${1} Collection
+		summary: ${1:} Collection
 		description: Returns a $1 collection
 		tags:
 			- ${2}
@@ -44,7 +44,7 @@ snippet sgetc
 
 snippet sposte
 	post:
-		summary: ${1} Entity Create
+		summary: ${1:} Entity Create
 		description: $1 Entity Create
 		tags:
 			- ${2} 
@@ -66,7 +66,7 @@ snippet sposte
 
 snippet spute
 	put:
-		summary: ${1} Entity Modify
+		summary: ${1:} Entity Modify
 		description: $1 Entity Modify
 		tags:
 			- ${2} 
@@ -95,7 +95,7 @@ snippet spute
 
 snippet sdele
 	delete:
-		summary: ${1} Entity Delete
+		summary: ${1:} Entity Delete
 		description: $1 Entity Delete
 		tags: 
 			- ${2}
