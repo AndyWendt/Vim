@@ -1,3 +1,13 @@
+snippet stp
+	${1}:
+		type: ${2}
+snippet stype
+	${1}:
+		type: 'object'
+		properties: 
+			${2}:
+				type: ${3}
+
 snippet sgete
 	get:
 		summary: ${1} Entity
@@ -6,10 +16,10 @@ snippet sgete
 			- ${2}
 		parameters:
 			- name: ${3}
-			in: path
-			required: true
-			description: The id of the $1 
-			type: string
+				in: path
+				required: true
+				description: The id of the $1 
+				type: string
 		responses:
 			200:
 				description: a $1 entity
