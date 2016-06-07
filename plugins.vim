@@ -19,6 +19,7 @@ Plugin 'ervandew/supertab'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'stephpy/vim-php-cs-fixer'
+Plugin '2072/PHP-Indenting-for-VIm'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
