@@ -82,7 +82,8 @@ map <A-c> "+y					"alt c for copying to system clipboard
 nmap <Leader>f :tag<space>
 nmap <Leader>ct :!ctags -R --exclude=node_modules\|bower_components\|public --PHP-kinds=+cf<cr>
 
-
+" Indent the file
+nmap <Leader>if     gg=G<cr>
 
 "-------------Plugins--------------"
 
@@ -125,6 +126,11 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 "
 let g:php_cs_fixer_level = "psr2" 
 nnoremap <silent><leader>pf :call PhpCsFixerFixDirectory()<CR>
+
+"
+" PHP indent 
+"
+let g:PHP_vintage_case_default_indent = 1 
 
 
 "-------------Laravel Helpers--------------"
