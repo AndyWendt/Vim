@@ -6,6 +6,7 @@
 * http://vimregex.com/#substitute
 * http://superuser.com/questions/147715/vim-insert-empty-line-above-current-line-not-open-i-e-without-entering-inser
 * https://duckduckgo.com/?ia=cheatsheet&iax=1&q=vim+cheat+sheet
+* http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
 
 ## Folds
 
