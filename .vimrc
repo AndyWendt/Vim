@@ -16,8 +16,8 @@ set autowriteall                                                        "automat
 set complete=.,w,b,u                                                    "set desired autocompletion
 
 set expandtab
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 "-------------Visuals--------------"
 colorscheme atom-dark
@@ -72,6 +72,9 @@ vnoremap <A-v> "+gP					"alt v for pasting from system clipboard
 inoremap <A-v> <C-r>+ 
 vnoremap <A-c> "+y					"alt c for copying to system clipboard
 "alt c for copying to system clipboard
+
+" write file
+nmap <Leader>w :w<cr>
 
 " select all
 nmap <A-a> ggVG
