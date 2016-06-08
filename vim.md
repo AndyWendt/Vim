@@ -4,6 +4,7 @@
 * http://stackoverflow.com/questions/8750275/vim-super-fast-navigation
 * http://nvie.com/posts/how-i-boosted-my-vim/
 * http://vimregex.com/#substitute
+* http://superuser.com/questions/147715/vim-insert-empty-line-above-current-line-not-open-i-e-without-entering-inser
 
 ## Folds
 
@@ -65,8 +66,8 @@ Vim has several different modes
 
 * `r` to replace under cursor (e.g. `r"'` to replace `"` with `'`)
 * `J` to join bottom line to current line
-* `o` line below
-* `O` line above
+* `o` add line below and go into insert mode
+* `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
 
 ### Selecting 
