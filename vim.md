@@ -7,6 +7,7 @@
 * http://superuser.com/questions/147715/vim-insert-empty-line-above-current-line-not-open-i-e-without-entering-inser
 * https://duckduckgo.com/?ia=cheatsheet&iax=1&q=vim+cheat+sheet
 * http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
+* http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
 
 ## Folds
 
