@@ -83,7 +83,7 @@ map <A-v> "+gP					"alt v for pasting from system clipboard
 map <A-c> "+y					"alt c for copying to system clipboard
 
 nmap <Leader>f :tag<space>
-nmap <Leader>ct :!ctags -R --exclude=node_modules\|bower_components\|public --PHP-kinds=+cf<cr>
+nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --exclude=public --PHP-kinds=+cf<cr>
 
 " Indent the file
 nmap <Leader>if     gg=G<cr>
