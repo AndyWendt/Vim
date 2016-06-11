@@ -73,6 +73,13 @@ Vim has several different modes
 * `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
 
+### Going into Insert mode
+
+* `i` to place the cursor before the normal mode selection
+* `a` to place the cursor after the normal mode selection
+* `shift-I` place cursor before first character of the line
+* `shift-A` place cursor after last character of the line
+
 ### Selecting 
 
 * `vi` for selecting inside (quotes etc) so `vi"` to select inside `""`
