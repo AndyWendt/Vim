@@ -114,6 +114,9 @@ Vim has several different modes
 * top `gg`
 * `ctrl+^` go back to previous edit point or location
 * `ctrl+d` page down
+* `$` move to end of line
+* `^` move to first not blank character on line
+* `0` to move to first column of line
 
 ## Misc
 
