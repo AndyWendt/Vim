@@ -98,11 +98,15 @@ Vim has several different modes
 
 ### Deleting
 
+* [deleting backwards tricks](http://stackoverflow.com/questions/1373841/vim-deleting-backword-tricks)
+
 `di` stands for delete inside
 
 * `di+(` for deleting everything in between paranthesis
 * `di+"` for deleting everything in between quotes
 * `di+'` for deleting everything in between single-quotes
+* `x` delete character under cursor
+* `3x` delete 3 characters forward.  Capital for reverse
 
 
 ## Movement
