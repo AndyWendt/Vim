@@ -92,6 +92,7 @@ Vim has several different modes
 * `cs` change sorrounding
 * `dst` delete sorrounding tag
 * `cst` change sorrounding tag 
+* `cit` change inside tag
 * `S` add sorrounding to visual selection
 * visual select + `:norm vss'` to sorround lines with `'`
 
