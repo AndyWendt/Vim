@@ -8,6 +8,7 @@
 * https://duckduckgo.com/?ia=cheatsheet&iax=1&q=vim+cheat+sheet
 * http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
 * http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
+* http://vim.wikia.com/wiki/Search_and_replace
 
 ## Folds
 
@@ -174,7 +175,8 @@ Vim has several different modes
 * `:Gsearch` 
 	* replace in results file
 		* select all lines
-		* `:s/<query>/<replace>`
+		* `:s/<query>/<replace>` to replace the first match on each line
+		* `:s/<query>/<replace>/g` to replace all matches on all lines
 		* `:Greplace` to run the replace
 
 ### Ctags
