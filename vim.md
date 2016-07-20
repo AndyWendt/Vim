@@ -147,6 +147,7 @@ Vim has several different modes
 ### Splits
 
 * `:q` to close out split
+	* `ctrl+w` then `q` to close out split
 * `:sp` for split (default horizontal)
 * switching default is `ctrl+w+<movementkey>`
 * `:vsp` for vertical split
