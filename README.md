@@ -1,4 +1,9 @@
-# My Dotfiles
+# VIM
+
+* [.vimrc](.vimrc)
+* [Plugins](plugins.vim)
+* [Keyboard shortcuts and guide](vim.md)
+
 
 ## Required System Packages
 
