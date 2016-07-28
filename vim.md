@@ -125,6 +125,10 @@ Vim has several different modes
 * `$` move to end of line
 * `^` move to first not blank character on line
 * `0` to move to first column of line
+* `f<char>` move forward to first instance of character
+* `<number>f<char>` move forward to Nth character
+* `w` forward word
+* `b` back word
 
 ## Misc
 
