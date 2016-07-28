@@ -195,7 +195,8 @@ Vim has several different modes
 
 * `y` for yank (while in visual mode)
 * `yy` for yank line
-* `p` for paste
+* `p` for paste after cursor
+* `P` for paste before cursor
 * `d` for cut
 * `ddp` for switching lines of text
 
