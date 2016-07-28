@@ -12,6 +12,8 @@ set backspace=indent,eol,start                                          "Make ba
 let mapleader = ',' 						    	"The default is \, but a comma is much better.
 set number								"Let's activate line numbers.
 
+set nowrap
+
 set autowriteall                                                        "automatically save all files
 set complete=.,w,b,u                                                    "set desired autocompletion
 
