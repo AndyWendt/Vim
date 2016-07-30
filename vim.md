@@ -184,6 +184,15 @@ Vim has several different modes
 		* `:s/<query>/<replace>/g` to replace all matches on all lines
 		* `:Greplace` to run the replace
 
+#### Autocomplete for substitution
+
+http://stackoverflow.com/questions/19730567/vim-auto-completion-on-substitutions-and-searches-in-the-command-line
+
+* visually select for the substitution
+* enter normal mode `esc`
+* `ctrl+f` to enter commandline window
+* start typing substitution and hit `ctrl+p` when needed to autocomplete.  e.g.: `s/star..`
+
 ### Ctags
 
 * `:!ctags -R`
