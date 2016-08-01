@@ -90,6 +90,15 @@ nmap <Leader>ct :!ctags -R --exclude=node_modules --exclude=bower_components --e
 " Indent the file
 nmap <Leader>if     gg=G<cr>
 
+
+" move line mappings
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
 "-------------Plugins--------------"
 
 "
@@ -122,7 +131,7 @@ let NERDTreeShowHidden=1				"Enable hidden files here but not in ctrl+p.  Need t
 " greplace 
 "
 
-set grepprg=ag						"use ag for search
+set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
 
