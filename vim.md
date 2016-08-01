@@ -9,6 +9,7 @@
 * http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
 * http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
 * http://vim.wikia.com/wiki/Search_and_replace
+* http://vim.wikia.com/wiki/Moving_lines_up_or_down
 
 ## Folds
 
@@ -129,6 +130,8 @@ Vim has several different modes
 * `<number>f<char>` move forward to Nth character
 * `w` forward word
 * `b` back word
+* `alt+j` move line up
+* `alt+k` move line down
 
 ## Misc
 
