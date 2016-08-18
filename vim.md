@@ -132,6 +132,8 @@ Vim has several different modes
 * `b` back word
 * `alt+j` move line up
 * `alt+k` move line down
+* `42G` or `42gg` or `:42` to go to line number
+	* http://vim.wikia.com/wiki/Go_to_line
 
 ## Misc
 
