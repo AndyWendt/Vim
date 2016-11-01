@@ -10,6 +10,7 @@
 * http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
 * http://vim.wikia.com/wiki/Search_and_replace
 * http://vim.wikia.com/wiki/Moving_lines_up_or_down
+* http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim
 
 ## Folds
 
