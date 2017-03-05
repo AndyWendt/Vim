@@ -20,6 +20,8 @@ http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-f
 
 ## Vim-Fugitive Git
 
+https://github.com/tpope/vim-fugitive
+
 ```vim
 :Gstatus
 :Gedit
