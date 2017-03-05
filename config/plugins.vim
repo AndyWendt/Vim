@@ -21,7 +21,7 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'vim-zenroom2'
+Plugin 'amix/vim-zenroom2'
 Plugin 'junegunn/goyo.vim'
 
 call vundle#end()            " required
