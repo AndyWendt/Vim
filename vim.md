@@ -140,6 +140,7 @@ Vim has several different modes
 
 * command mode `:`
 * Current working directory `:pwd`
+* `:source ~/.vimrc` to source a .vimrc
 * Source current file `:so %`
 * `.` references last command
 * `,ev` edit vim config
