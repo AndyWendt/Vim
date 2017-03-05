@@ -36,6 +36,8 @@ Plugin 'ervandew/supertab'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 
+Plugin 'maxbrunsfeld/vim-yankstack'
+
 " PHP 
 Plugin 'stephpy/vim-php-cs-fixer'
 Plugin 'arnaud-lb/vim-php-namespace'  
