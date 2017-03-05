@@ -12,6 +12,21 @@
 * http://vim.wikia.com/wiki/Moving_lines_up_or_down
 * http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim
 
+https://medium.com/hacking-and-gonzo/10-vim-tricks-you-should-know-6393842b3537#.6jldhnolk
+
+`:Goyo` to open distraction free writing
+
+http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-font
+
+## Multiple cursors
+
+`ctrl+n`
+
+## Comments
+
+`:gcc`
+`:gcgc`
+
 ## Folds
 
 * `zR` open all folds
