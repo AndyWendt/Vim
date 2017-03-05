@@ -2,7 +2,7 @@
 
 * [.vimrc](.vimrc)
 * [Plugins](plugins.vim)
-* [Keyboard shortcuts and guide](vim.md)
+* [Keyboard shortcuts and guide](documentation/vim.md)
 
 ## Prerequisites
 
