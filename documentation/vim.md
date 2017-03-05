@@ -18,6 +18,20 @@ https://medium.com/hacking-and-gonzo/10-vim-tricks-you-should-know-6393842b3537#
 
 http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-font
 
+## Vim-Fugitive Git
+
+```vim
+:Gstatus
+:Gedit
+:Gcommit
+:Gblame
+:Ggrep
+:Gbrowse
+:Gdiff
+:Gmove
+```
+
+
 ## Buffer
 
 https://github.com/maxbrunsfeld/vim-yankstack

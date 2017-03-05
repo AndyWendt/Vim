@@ -11,6 +11,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
+Plugin 'tpope/vim-fugitive'
 
 
 " Visual
