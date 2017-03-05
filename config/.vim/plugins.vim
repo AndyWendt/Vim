@@ -13,6 +13,10 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'tpope/vim-fugitive'
 
+" Copy Pasta
+Plugin 'svermeulen/vim-easyclip'
+Plugin 'tpope/vim-repeat'
+
 
 " Visual
 Plugin 'itchyny/lightline.vim'
@@ -37,7 +41,7 @@ Plugin 'ervandew/supertab'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 
-Plugin 'maxbrunsfeld/vim-yankstack'
+" Plugin 'maxbrunsfeld/vim-yankstack'
 
 " PHP 
 Plugin 'stephpy/vim-php-cs-fixer'

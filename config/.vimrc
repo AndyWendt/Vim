@@ -70,10 +70,10 @@ nmap <Leader><space> :nohlsearch<cr>
 
 nmap <Leader>f :tag<space>				"search for a tag using ctags
 
-vnoremap <A-v> "+gP					"alt v for pasting from system clipboard
+" vnoremap <A-v> "+gP					"alt v for pasting from system clipboard
  "alt v for pasting from system clipboard
-inoremap <A-v> <C-r>+ 
-vnoremap <A-c> "+y					"alt c for copying to system clipboard
+"inoremap <A-v> <C-r>+
+"vnoremap <A-c> "+y					"alt c for copying to system clipboard
 "alt c for copying to system clipboard
 
 " write file
@@ -129,6 +129,11 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+"
+" EasyClip
+"
+set clipboard=unnamed,unnamedplus
 
 "
 " Control P 
