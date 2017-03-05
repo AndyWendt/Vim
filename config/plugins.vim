@@ -5,23 +5,45 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+
+" Misc
 Plugin 'flazz/vim-colorschemes'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+
+
+" Visual
+Plugin 'itchyny/lightline.vim'
+
+" Coding
+Plugin 'vim-syntastic/syntastic'
+
+
+" Navigation
 Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'editorconfig/editorconfig-vim'
+
+" Text editing and search
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'  
 Plugin 'garbas/vim-snipmate'  
 Plugin 'tpope/vim-surround'  
-Plugin 'StanAngeloff/php.vim'  
-Plugin 'arnaud-lb/vim-php-namespace'  
-Plugin 'ervandew/supertab'  
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
+Plugin 'ervandew/supertab'
+
+" https://github.com/terryma/vim-multiple-cursors
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-commentary'
+
+" PHP 
 Plugin 'stephpy/vim-php-cs-fixer'
+Plugin 'arnaud-lb/vim-php-namespace'  
 Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'amix/vim-zenroom2'
+Plugin 'StanAngeloff/php.vim'  
+
+" Distraction Free Writing
+Plugin 'junegunn/limelight.vim'
 Plugin 'junegunn/goyo.vim'
 
 call vundle#end()            " required
