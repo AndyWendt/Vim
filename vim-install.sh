@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-cp ./plugins.vim ~/.vim/plugins.vim
+cp ./config/plugins.vim ~/.vim/plugins.vim
+cp -R ./snippets ~/.vim/snippets
+cp ./vimrc ~/.vimrc

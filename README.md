@@ -45,3 +45,8 @@ To install from command line: `vim +PluginInstall +qall`
 * swap `esc` with `caps lock`
   * `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"`
 
+
+
+---
+
+https://github.com/amix/vimrc
