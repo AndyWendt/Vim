@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+if [ ! -f ~/.vim/bundle/Vundle.vim ]; then
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+fi
+
 echo "Installation Starting"
 
 cp -R ./config/.vim/* ~/.vim/
