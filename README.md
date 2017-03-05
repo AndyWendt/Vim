@@ -33,6 +33,8 @@ sudo apt install ctags
 Plugins are in a different file sourced by the `.vimrc`. The location for this file is set to 
 be `~/.vim/plugins.vim`. 
 
+Plugin config files are to be put in `plugin-config` folder and sourced in the `.vimrc
+
 Install Plugins:
 
 Launch `vim` and run `:PluginInstall`
