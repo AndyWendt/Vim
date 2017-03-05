@@ -18,8 +18,9 @@ Plugin 'svermeulen/vim-easyclip'
 Plugin 'tpope/vim-repeat'
 
 
-" Visual
-Plugin 'itchyny/lightline.vim'
+" Status Line
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Coding
 Plugin 'vim-syntastic/syntastic'
@@ -40,8 +41,6 @@ Plugin 'ervandew/supertab'
 " https://github.com/terryma/vim-multiple-cursors
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
-
-" Plugin 'maxbrunsfeld/vim-yankstack'
 
 " PHP 
 Plugin 'stephpy/vim-php-cs-fixer'

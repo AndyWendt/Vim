@@ -37,6 +37,10 @@ set guioptions-=L
 set guioptions-=r
 set guioptions-=R
 
+" remove whitebar at bottom of window while in fullscreen
+:set guiheadroom=0
+:set guioptions-=e
+
 hi LineNr guibg=bg
 
 "-------------Search--------------"
@@ -109,14 +113,12 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 
 
 "
-" Lightline
+" Status Line
 "
 
 set laststatus=2
 " get rid of the extraneous default vim mode information
 set noshowmode
-
-so ~/.vim/plugin-config/lightline.vim
 
 "
 " Syntastic
