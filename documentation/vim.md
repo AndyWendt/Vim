@@ -25,6 +25,8 @@ https://github.com/maxbrunsfeld/vim-yankstack
 `meta-p` - cycle backward through your history of yanks
 `meta-shift-p` - cycle forwards through your history of yanks
 
+See yanks by `:Yanks`
+
 
 ## Multiple cursors
 

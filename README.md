@@ -6,7 +6,10 @@
 
 ## Useful
 
-Helpful plugins: https://github.com/itchyny/lightline.vim
+Helpful plugins: 
+
+* https://github.com/itchyny/lightline.vim
+* https://github.com/amix/vimrc
 
 ## Prerequisites
 
