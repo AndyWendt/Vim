@@ -116,6 +116,7 @@ set laststatus=2
 " get rid of the extraneous default vim mode information
 set noshowmode
 
+so ~/.vim/plugin-config/lightline.vim
 
 "
 " Syntastic
