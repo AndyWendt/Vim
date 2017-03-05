@@ -22,7 +22,8 @@ set tabstop=4
 set shiftwidth=4
 
 "-------------Visuals--------------"
-colorscheme atom-dark
+" colorscheme atom-dark
+colorscheme Monokai
 
 set t_CO=256								"Use 256 colors. This is useful for Terminal Vim.
 set guifont=Source\ Code\ Pro\ 13						"Set the default font family and size.
