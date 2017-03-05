@@ -4,14 +4,44 @@
 * [Plugins](plugins.vim)
 * [Keyboard shortcuts and guide](vim.md)
 
+## Prerequisites
 
-## Required System Packages
+[Install Vundle](https://github.com/VundleVim/Vundle.vim)
 
-* gvim
-* ctags
+```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
 
 
-## System changes
+### Required System Packages
+
+#### gvim
+
+```bash
+sudo apt install ctags
+```
+
+#### ctags
+
+```bash
+sudo apt install ctags
+```
+
+
+## Plugins
+
+Plugins are in a different file sourced by the `.vimrc`. The location for this file is set to 
+be `~/.vim/plugins.vim`. 
+
+Install Plugins:
+
+Launch `vim` and run `:PluginInstall`
+
+To install from command line: `vim +PluginInstall +qall`
+
+
+## Optional System changes
 
 * swap `esc` with `caps lock`
   * `dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:swapescape']"`
+
