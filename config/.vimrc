@@ -103,6 +103,33 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 "-------------Plugins--------------"
 
 "
+" commentary.vim
+"
+"nmap <c-R> :gcc<cr>
+
+
+"
+" Lightline
+"
+
+set laststatus=2
+" get rid of the extraneous default vim mode information
+set noshowmode
+
+
+"
+" Syntastic
+"
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+"
 " Control P 
 "
 
