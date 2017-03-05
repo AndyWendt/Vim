@@ -18,6 +18,14 @@ https://medium.com/hacking-and-gonzo/10-vim-tricks-you-should-know-6393842b3537#
 
 http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-font
 
+## Buffer
+
+https://github.com/maxbrunsfeld/vim-yankstack
+
+`meta-p` - cycle backward through your history of yanks
+`meta-shift-p` - cycle forwards through your history of yanks
+
+
 ## Multiple cursors
 
 `ctrl+n`

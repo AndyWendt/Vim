@@ -4,6 +4,10 @@
 * [Plugins](plugins.vim)
 * [Keyboard shortcuts and guide](documentation/vim.md)
 
+## Useful
+
+Helpful plugins: https://github.com/itchyny/lightline.vim
+
 ## Prerequisites
 
 [Install Vundle](https://github.com/VundleVim/Vundle.vim)
