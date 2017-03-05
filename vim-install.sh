@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-cp ./config/plugins.vim ~/.vim/plugins.vim
-cp -R ./snippets ~/.vim/snippets
+cp -R ./config/.vim/* ~/.vim/
 cp ./config/.vimrc ~/.vimrc
 
 vim +PluginInstall +qall
