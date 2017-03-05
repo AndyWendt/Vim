@@ -33,6 +33,12 @@ https://github.com/tpope/vim-fugitive
 :Gmove
 ```
 
+### Status mode
+
+In status mode, use `-` to add a file to the stage. 
+
+Use `U` to revert a file. 
+
 
 ## Buffer
 
