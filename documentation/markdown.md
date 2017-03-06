@@ -1,5 +1,7 @@
 # Markdown
 
+:TableFormat: Format the table under the cursor like this.
+
 gx: open the link under the cursor in the same browser as the standard gx command. <Plug>Markdown_OpenUrlUnderCursor
 
 The standard gx is extended by allowing you to put your cursor anywhere inside a link.

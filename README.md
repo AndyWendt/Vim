@@ -3,6 +3,11 @@
 * [Vim Configs](config/.vim/config)
 * [Plugins](config/.vim/plugins.vim)
 * [Keyboard shortcuts and guide](documentation/vim.md)
+* [Navigation and viewing](documentation/navigation.md)
+* [Editing](documentation/editing.md)
+* [PHP](documentation/php.md)
+* [Markdown](documentation/markdown.md)
+* [Special Character Mappings](documentation/character_mapping.md)
 
 ## About
 
