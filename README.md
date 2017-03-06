@@ -12,6 +12,10 @@ I added a distraction free writing experience and a few more plugins that I stol
 
 It is an efficient and clean setup.  I will be adding photos soon. 
 
+## Prereqs
+
+* http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim
+
 ## Optional System changes
 
 * swap `esc` with `caps lock`

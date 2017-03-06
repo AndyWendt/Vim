@@ -1,22 +1,29 @@
 # Vim
 
-* https://danielmiessler.com/study/vim/
-* http://stackoverflow.com/questions/8750275/vim-super-fast-navigation
+## Resources 
+
+### Guides and Tips
+
+* https://medium.com/hacking-and-gonzo/10-vim-tricks-you-should-know-6393842b3537#.6jldhnolk
 * http://nvie.com/posts/how-i-boosted-my-vim/
-* http://vimregex.com/#substitute
-* http://superuser.com/questions/147715/vim-insert-empty-line-above-current-line-not-open-i-e-without-entering-inser
 * https://duckduckgo.com/?ia=cheatsheet&iax=1&q=vim+cheat+sheet
-* http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
-* http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
+
+### Search and Regex
 * http://vim.wikia.com/wiki/Search_and_replace
-* http://vim.wikia.com/wiki/Moving_lines_up_or_down
+* http://vimregex.com/#substitute
 * http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim
 
-https://medium.com/hacking-and-gonzo/10-vim-tricks-you-should-know-6393842b3537#.6jldhnolk
+### Navigation and editing
+* http://stackoverflow.com/questions/8750275/vim-super-fast-navigation
+* http://superuser.com/questions/147715/vim-insert-empty-line-above-current-line-not-open-i-e-without-entering-inser
+* http://stackoverflow.com/questions/7406949/vim-faster-way-to-select-blocks-of-text-in-visual-mode
+* http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
+* http://vim.wikia.com/wiki/Moving_lines_up_or_down
+
+## Distraction Free Writing
 
 `:Goyo` to open distraction free writing
 
-http://askubuntu.com/questions/193072/how-to-use-the-new-adobe-source-code-pro-font
 
 ## Vim-Fugitive Git
 
