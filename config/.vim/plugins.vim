@@ -52,6 +52,11 @@ Plugin 'arnaud-lb/vim-php-namespace'
 Plugin '2072/PHP-Indenting-for-VIm'
 Plugin 'StanAngeloff/php.vim'
 
+" Typescript
+Plugin "leafgarland/typescript-vim"
+Plugin "Quramy/tsuquyomi"
+
+
 " Distraction Free Writing
 Plugin 'junegunn/limelight.vim'
 Plugin 'junegunn/goyo.vim'
