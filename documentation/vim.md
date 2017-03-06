@@ -26,9 +26,9 @@
 
 `:Goyo` to open distraction free writing
 
-### Files
+### Navigation 
 
-## Vinegar
+#### Vinegar
 
 * `-` show files in current directory using vinegar plugin 
 	* `-` again to go up a level
@@ -36,7 +36,7 @@
 * `D` delete directory or file
 * `%` for new file
 
-## NERDTree
+#### NERDTree
 
 * `NERDTreeToggle`
 * `?` find options
@@ -100,18 +100,8 @@ See yanks by `:Yanks`
 * `wa` for writing all files
 * `:e!` revert to last save
 * `!rm %` remove file
+* `:e .` show the files & current in the current directory
 
-
-
-## Buffers
-* `:bp` buffer previous
-* `:ls` list all buffers
-* `:b3` third buffer (found via list)
-* `:bd` close tab (buffer)  buffer delete
-* `:bp` previous buffer
-* `:+up` to cycle through previous commands
-* `:bufdo bd!` close every buffer
-* `ctrl+wo` make current buffer full screen
 
 
 ## Modes 
@@ -135,7 +125,7 @@ Vim has several different modes
 * `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
 
-### Going into Insert mode
+### Insert mode
 
 * `i` to place the cursor before the normal mode selection
 * `a` to place the cursor after the normal mode selection
@@ -145,11 +135,11 @@ Vim has several different modes
 ### Selecting 
 
 * `vi` for selecting inside (quotes etc) so `vi"` to select inside `""`
-* `va` for selecting all include delimeter so `va{` will select the braces and everything inside.
+* `va` for selecting all including delimeter so `va{` will select the braces and everything inside.
+* `ci` change inside and puts you in insert mode (i.e. `ci"`)
 
 ### Sorroundings
 
-* `ci` change inside and puts you in insert mode (i.e. `ci"`)
 * `ds` delete sorrounding
 * `cs` change sorrounding
 * `dst` delete sorrounding tag
@@ -176,6 +166,8 @@ Vim has several different modes
 
 ## Movement
 
+* `zz` current line middle of screen
+* j,h,k,l for traversing
 * left `h`
 * right `l`
 * up `k`
@@ -209,10 +201,17 @@ Vim has several different modes
 
 ## Viewing
 
-* `zz` current line middle of screen
-* `:e .` show the files & current in the current directory
-	* j,h,k,l for traversing
-	* `/<search>` for search
+* `/<search>` for search
+
+## Buffers
+* `:bp` buffer previous
+* `:ls` list all buffers
+* `:b3` third buffer (found via list)
+* `:bd` close tab (buffer)  buffer delete
+* `:bp` previous buffer
+* `:+up` to cycle through previous commands
+* `:bufdo bd!` close every buffer
+* `ctrl+wo` make current buffer full screen
 
 ### Splits
 
