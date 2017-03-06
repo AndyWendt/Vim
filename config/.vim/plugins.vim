@@ -25,6 +25,10 @@ Plugin 'vim-airline/vim-airline-themes'
 " Coding
 Plugin 'vim-syntastic/syntastic'
 
+" Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+
 
 " Navigation
 Plugin 'tpope/vim-vinegar'
@@ -33,20 +37,20 @@ Plugin 'ctrlpvim/ctrlp.vim'
 
 " Text editing and search
 Plugin 'rking/ag.vim'
-Plugin 'skwp/greplace.vim'  
-Plugin 'garbas/vim-snipmate'  
-Plugin 'tpope/vim-surround'  
+Plugin 'skwp/greplace.vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'tpope/vim-surround'
 Plugin 'ervandew/supertab'
 
 " https://github.com/terryma/vim-multiple-cursors
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 
-" PHP 
+" PHP
 Plugin 'stephpy/vim-php-cs-fixer'
-Plugin 'arnaud-lb/vim-php-namespace'  
+Plugin 'arnaud-lb/vim-php-namespace'
 Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'StanAngeloff/php.vim'  
+Plugin 'StanAngeloff/php.vim'
 
 " Distraction Free Writing
 Plugin 'junegunn/limelight.vim'
