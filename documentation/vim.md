@@ -22,29 +22,6 @@
 
 ## Commands 
 
-### Distraction Free Writing
-
-`:Goyo` to open distraction free writing
-
-### Navigation 
-
-#### Vinegar
-
-* `-` show files in current directory using vinegar plugin 
-	* `-` again to go up a level
-* `d` create directory
-* `D` delete directory or file
-* `%` for new file
-
-#### NERDTree
-
-* `NERDTreeToggle`
-* `?` find options
-* `m` move node
-* `a` add node
-* `d` delete node
-* `c` copy node
-* `r` refresh listing
 
 
 ## Vim-Fugitive Git
@@ -79,18 +56,12 @@ https://github.com/maxbrunsfeld/vim-yankstack
 See yanks by `:Yanks`
 
 
-## Multiple cursors
-
-`ctrl+n`
 
 ## Comments
 
 `:gcc`
 `:gcgc`
 
-## Folds
-
-* `zR` open all folds
 
 ## File commands 
 
@@ -113,10 +84,6 @@ Vim has several different modes
 * `v` visual (for selecting sections of text by the keyboard to be operated on)
 * `V` visual selecting by lines
 
-### Visual mode sub commands
-
-* `d` to delete
-
 
 ## Misc
 
@@ -129,45 +96,3 @@ Vim has several different modes
 * `:!<command>` to run commandline command
 * `:reg` to registers (clipboard etc)
 
-
-
-
-
-## Mappings
-
-* `nmap` = normal mode mapping
-* `imap` = insert mode mapping
-* 
-
-## PHP
-
-* `,su` sort namespaces by length in selection
-* `,n` import namespace
-* `,nf` use fully qualified namespace
-* `ctrl+n` autocomplete choose item then keep typing
-* `<Leader>pf` php cs fixer on directory
-
-## vim special character mapping
-
-you can only map one character with another followed by n sets
-
-<BS>           Backspace
-<Tab>          Tab
-<CR>           Enter
-<Enter>        Enter
-<Return>       Enter
-<Esc>          Escape
-<Space>        Space
-<Up>           Up arrow
-<Down>         Down arrow
-<Left>         Left arrow
-<Right>        Right arrow
-<F1> - <F12>   Function keys 1 to 12
-#1, #2..#9,#0  Function keys F1 to F9, F10
-<Insert>       Insert
-<Del>          Delete
-<Home>         Home
-<End>          End
-<PageUp>       Page-Up
-<PageDown>     Page-Down
-<bar>          the '|' character, which otherwise needs to be escaped '\|'
