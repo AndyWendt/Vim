@@ -1,0 +1,12 @@
+so ~/.vim/config/base.vim
+so ~/.vim/config/visuals.vim
+
+so ~/.vim/config/search.vim
+so ~/.vim/config/splits.vim
+
+so ~/.vim/config/mappings.vim
+
+so ~/.vim/config/plugins-config.vim
+so ~/.vim/config/php.vim
+
+so ~/.vim/config/auto-commands.vim
