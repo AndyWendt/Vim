@@ -6,9 +6,10 @@ set t_CO=256								"Use 256 colors. This is useful for Terminal Vim.
 set guifont=Source\ Code\ Pro\ 13						"Set the default font family and size.
 set linespace=12 							"Macvim-specific line-height.
 
-set guioptions -=m							"disable menu bar
-set guioptions -=T							"disable toolbar
-
+if has("gui_running")
+  set guioptions -=m              "disable menu bar
+  set guioptions -=T              "disable toolbar
+endif
 set guioptions-=l                                                       "Disable Gui scrollbars.
 set guioptions-=L
 set guioptions-=r
