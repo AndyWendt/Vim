@@ -2,6 +2,9 @@
 echo "Installation Starting"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    sudo apt install ctags
+    echo "Installed ctags"
+
     cp ./config/.gtkrc-2.0 ~/.gtkrc-2.0
     echo "Copied .gtkrc-2.0"
 fi
