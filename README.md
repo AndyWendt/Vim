@@ -14,7 +14,8 @@ It is an efficient and clean setup.  I will be adding photos soon.
 
 ## Prereqs
 
-* http://stackoverflow.com/questions/594448/how-can-i-add-a-string-to-the-end-of-each-line-in-vim
+* GVim or MacVim
+* Source Code Pro Font 
 
 ## Optional System changes
 
