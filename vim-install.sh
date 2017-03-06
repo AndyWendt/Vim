@@ -10,15 +10,18 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "Copied .gtkrc-2.0"
 fi
 
+cp ./config/install-vimrc ~/.vimrc
+echo "Copied Temp Install vimrc to ~/.vimrc"
+
+# install plugins
+vim +PluginInstall +qall
+
 echo "Installation Starting"
 
 cp -R ./config/.vim/* ~/.vim/
 echo "Copied files to ~/.vim"
 
-cp ./config/.vimrc ~/.vimrc
+cp ./config/vimrc ~/.vimrc
 echo "Copied ~/.vimrc"
-
-# install plugins
-vim +PluginInstall +qall
 
 echo "Installation Complete"
