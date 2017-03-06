@@ -1,5 +1,31 @@
 # Navigation and Movement
 
+### Distraction Free Writing
+
+`:Goyo` to open distraction free writing
+
+### Navigation 
+
+#### Vinegar
+
+* `-` show files in current directory using vinegar plugin 
+	* `-` again to go up a level
+* `d` create directory
+* `D` delete directory or file
+* `%` for new file
+
+#### NERDTree
+
+* `NERDTreeToggle`
+* `?` find options
+* `m` move node
+* `a` add node
+* `d` delete node
+* `c` copy node
+* `r` refresh listing
+## Folds
+
+* `zR` open all folds
 
 ## Movement
 

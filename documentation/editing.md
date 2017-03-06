@@ -6,6 +6,14 @@
 * `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
 
+## Multiple cursors
+
+`ctrl+n`
+
+### Visual mode sub commands
+
+* `d` to delete
+
 ### Insert mode
 
 * `i` to place the cursor before the normal mode selection
