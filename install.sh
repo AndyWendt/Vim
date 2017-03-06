@@ -3,10 +3,15 @@ echo "Installation Starting"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     sudo apt install ctags
-    echo "Installed ctags"
+    echo "Installed ctags linux"
 
     cp ./config/.gtkrc-2.0 ~/.gtkrc-2.0
     echo "Copied .gtkrc-2.0"
+fi
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    brew install ctags
+    echo "Installed ctags for mac"
 fi
 
 if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
