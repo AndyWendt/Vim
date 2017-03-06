@@ -20,9 +20,31 @@
 * http://stackoverflow.com/questions/253380/how-do-i-insert-text-at-beginning-of-a-multi-line-selection-in-vi-vim
 * http://vim.wikia.com/wiki/Moving_lines_up_or_down
 
-## Distraction Free Writing
+## Commands 
+
+### Distraction Free Writing
 
 `:Goyo` to open distraction free writing
+
+### Files
+
+## Vinegar
+
+* `-` show files in current directory using vinegar plugin 
+	* `-` again to go up a level
+* `d` create directory
+* `D` delete directory or file
+* `%` for new file
+
+## NERDTree
+
+* `NERDTreeToggle`
+* `?` find options
+* `m` move node
+* `a` add node
+* `d` delete node
+* `c` copy node
+* `r` refresh listing
 
 
 ## Vim-Fugitive Git
@@ -79,23 +101,6 @@ See yanks by `:Yanks`
 * `:e!` revert to last save
 * `!rm %` remove file
 
-## Vinegar
-
-* `-` show files in current directory using vinegar plugin 
-	* `-` again to go up a level
-* `d` create directory
-* `D` delete directory or file
-* `%` for new file
-
-## NERDTree
-
-* `NERDTreeToggle`
-* `?` find options
-* `m` move node
-* `a` add node
-* `d` delete node
-* `c` copy node
-* `r` refresh listing
 
 
 ## Buffers
