@@ -63,6 +63,10 @@
 * turn off search `,space` actually leader but it works
 * ':copen"  show all matches
 
+### folder wide
+
+* `:Ag '<search'` to search for occurence 
+
 ### Search and replace
 * `:Gsearch` 
 	* replace in results file
@@ -89,3 +93,4 @@ http://stackoverflow.com/questions/19730567/vim-auto-completion-on-substitutions
 * `:ts` to select from all of the tags available
 * `ctrl+]` to go to method from usage. e.g. `$this->myMethod()` goes to `myMethod()` definition
 * `,ct` for rebuilding tag cache
+
