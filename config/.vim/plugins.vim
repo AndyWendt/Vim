@@ -24,6 +24,7 @@ Plugin 'vim-airline/vim-airline-themes'
 
 " Coding
 Plugin 'vim-syntastic/syntastic'
+Plugin 'Valloric/YouCompleteMe'
 
 " Markdown
 Plugin 'godlygeek/tabular'
@@ -53,8 +54,8 @@ Plugin '2072/PHP-Indenting-for-VIm'
 Plugin 'StanAngeloff/php.vim'
 
 " Typescript
-Plugin "leafgarland/typescript-vim"
-Plugin "Quramy/tsuquyomi"
+Plugin 'leafgarland/typescript-vim'
+Plugin 'Quramy/tsuquyomi'
 
 
 " Distraction Free Writing
