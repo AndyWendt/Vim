@@ -1,7 +1,13 @@
 #!/usr/bin/env bash
 
-if [ ! -f ~/.vim/bundle/Vundle.vim ]; then
+if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
     git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    echo "Installed Vundle"
+fi
+
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+    cp ./config/.gtkrc-2.0 ~/.gtkrc-2.0
+    echo "Copied .gtkrc-2.0"
 fi
 
 echo "Installation Starting"
@@ -11,9 +17,6 @@ echo "Copied files to ~/.vim"
 
 cp ./config/.vimrc ~/.vimrc
 echo "Copied ~/.vimrc"
-
-cp ./config/.gtkrc-2.0 ~/.gtkrc-2.0
-echo "Copied .gtkrc-2.0"
 
 # install plugins
 vim +PluginInstall +qall
