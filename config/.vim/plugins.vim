@@ -61,6 +61,8 @@ Plugin 'Quramy/tsuquyomi'
 " Distraction Free Writing
 Plugin 'junegunn/limelight.vim'
 Plugin 'junegunn/goyo.vim'
+Plugin 'reedes/vim-pencil'
+Plugin 'reedes/vim-wordy'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

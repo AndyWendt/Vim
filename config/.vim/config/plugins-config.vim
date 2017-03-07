@@ -23,6 +23,17 @@ autocmd FileType typescript nmap <buffer> <Leader>e <Plug>(TsuquyomiRenameSymbol
 autocmd FileType typescript nmap <buffer> <Leader>E <Plug>(TsuquyomiRenameSymbolC)
 
 "
+" Goyo
+"
+map <F10> :Goyo <bar> :Limelight!! <bar> :TogglePencil <CR>
+
+
+"
+" Vim-pencil
+"
+let g:pencil#wrapModeDefault = 'soft'
+
+"
 " Vim Markdown
 "
 let g:vim_markdown_frontmatter = 1

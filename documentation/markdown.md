@@ -1,5 +1,7 @@
 # Markdown
 
+Use wordy for finding wordy words: https://github.com/reedes/vim-wordy
+
 :TableFormat: Format the table under the cursor like this.
 
 gx: open the link under the cursor in the same browser as the standard gx command. <Plug>Markdown_OpenUrlUnderCursor
