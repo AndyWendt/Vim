@@ -22,7 +22,7 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     echo "installed golang linux"
 
     sudo apt install build-essential cmake
-    sudo apt install go
+    sudo apt install golang
     echo "installed cmake and go linux"
 
     cp ./config/.gtkrc-2.0 ~/.gtkrc-2.0
