@@ -57,6 +57,8 @@ Plugin 'StanAngeloff/php.vim'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'Quramy/tsuquyomi'
 
+" VueJS
+Plugin 'posva/vim-vue'
 
 " Distraction Free Writing
 Plugin 'junegunn/limelight.vim'
