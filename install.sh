@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 echo "Installation Starting"
-if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    echo "Installed Vundle"
+if [ ! -d ~/.vim/autoload/plug.vim ]; then
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    echo "Installed Vim Plug"
 fi
 
 cp -R ./config/.vim/* ~/.vim/
@@ -12,7 +12,7 @@ cp ./config/install-vimrc ~/.vimrc
 echo "Copied Temp Install vimrc to ~/.vimrc"
 
 # install plugins
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     sudo apt install ctags
@@ -53,6 +53,8 @@ if [ ! -f ~/.vim/bundle/YouCompleteMe/installed ]; then
 else
     echo "YCM already installed"
 fi
+
+npm install -g typescript
 
 cp ./config/vimrc ~/.vimrc
 echo "Copied ~/.vimrc"

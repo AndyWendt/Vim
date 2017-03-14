@@ -1,70 +1,67 @@
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
+call plug#begin('~/.vim/bundle')
 
 " Misc
-Plugin 'flazz/vim-colorschemes'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'tomtom/tlib_vim'
-Plugin 'tpope/vim-fugitive'
+Plug 'flazz/vim-colorschemes'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'tpope/vim-fugitive'
 
 " Copy Pasta
-Plugin 'svermeulen/vim-easyclip'
-Plugin 'tpope/vim-repeat'
+Plug 'svermeulen/vim-easyclip'
+Plug 'tpope/vim-repeat'
 
 
 " Status Line
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Coding
-Plugin 'vim-syntastic/syntastic'
-Plugin 'Valloric/YouCompleteMe'
+Plug 'vim-syntastic/syntastic'
+Plug 'Valloric/YouCompleteMe'
 
 " Markdown
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 
 
 " Navigation
-Plugin 'tpope/vim-vinegar'
-Plugin 'scrooloose/nerdtree'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-vinegar'
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " Text editing and search
-Plugin 'rking/ag.vim'
-Plugin 'skwp/greplace.vim'
-Plugin 'garbas/vim-snipmate'
-Plugin 'tpope/vim-surround'
-Plugin 'ervandew/supertab'
+Plug 'rking/ag.vim'
+Plug 'skwp/greplace.vim'
+Plug 'garbas/vim-snipmate'
+Plug 'tpope/vim-surround'
+Plug 'ervandew/supertab'
 
 " https://github.com/terryma/vim-multiple-cursors
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'tpope/vim-commentary'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-commentary'
 
 " PHP
-Plugin 'stephpy/vim-php-cs-fixer'
-Plugin 'arnaud-lb/vim-php-namespace'
-Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'StanAngeloff/php.vim'
+Plug 'stephpy/vim-php-cs-fixer'
+Plug 'arnaud-lb/vim-php-namespace'
+Plug '2072/PHP-Indenting-for-VIm'
+Plug 'StanAngeloff/php.vim'
 
 " Typescript
-Plugin 'leafgarland/typescript-vim'
-Plugin 'Quramy/tsuquyomi'
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
 " VueJS
-Plugin 'posva/vim-vue'
+Plug 'posva/vim-vue'
 
 " Distraction Free Writing
-Plugin 'junegunn/limelight.vim'
-Plugin 'junegunn/goyo.vim'
-Plugin 'reedes/vim-pencil'
-Plugin 'reedes/vim-wordy'
+Plug 'junegunn/limelight.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'reedes/vim-pencil'
+Plug 'reedes/vim-wordy'
 
-call vundle#end()            " required
+call plug#end()
 filetype plugin indent on    " required
