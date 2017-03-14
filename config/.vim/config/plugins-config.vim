@@ -14,6 +14,12 @@ autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
 "
+"" YouCompleteMe ycm
+"
+let g:ycm_server_python_interpreter = '/usr/bin/python'
+
+
+"
 "" Quramy/tsuquyomi
 "
 let g:tsuquyomi_disable_quickfix = 1

@@ -21,6 +21,9 @@ if [[ "$OSTYPE" == "linux-gnu" ]]; then
     sudo apt install golang
     echo "installed golang linux"
 
+    sudo apt install python-dev python3-dev
+    echo "installed python dev packages"
+
     sudo apt install build-essential cmake
     sudo apt install golang
     echo "installed cmake and go linux"
@@ -40,11 +43,15 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Installed go for mac"
 fi
 
-if [ ! -d ~/.vim/bundle/Vundle.vim ]; then
+if [ ! -f ~/.vim/bundle/YouCompleteMe/installed ]; then
     cd ~/.vim/bundle/YouCompleteMe
     ./install.py --gocode-completer --tern-completer
     cd -
     echo "Installed ycm"
+    touch ~/.vim/bundle/YouCompleteMe/installed
+    echo "Installed YCM at $(date)" > ~/.vim/bundle/YouCompleteMe/installed
+else
+    echo "YCM already installed"
 fi
 
 cp ./config/vimrc ~/.vimrc
