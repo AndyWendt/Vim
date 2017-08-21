@@ -14,6 +14,11 @@
 * `D` delete directory or file
 * `%` for new file
 
+#### Conctrol P
+
+* `ctrl+r` show buffer tags and symbols in the file
+* `ctrl+e` show recently used files
+
 #### NERDTree
 
 * `NERDTreeToggle`
