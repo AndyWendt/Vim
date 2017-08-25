@@ -13,6 +13,7 @@
 ### Visual mode sub commands
 
 * `d` to delete
+* `m` to move (cut)
 
 ### Insert mode
 
