@@ -9,8 +9,6 @@ install:
 - pip install awscli --upgrade --user
 - npm install gitbook-cli -g
 script:
-- gitbook build
-- ls _book
 - ./deploy.sh
 
 cache:
