@@ -1,0 +1,32 @@
+sudo: false
+language: node_js
+
+os:
+- linux
+
+node_js:
+- lts/*
+
+install:
+- python --version
+- pip install awscli --upgrade --user
+- npm install gitbook-cli -g
+
+script:
+- gitbook build
+
+after_success:
+- ./deploy.sh
+
+cache:
+  directories:
+  - node_modules
+
+env:
+  global:
+  - secure: LVj2Hn+XxaGlhOCukhgoBxfdBT9esH4n2yPusUGOBtVLlZI1SR6GotQNvs/VOwJU7NSYyU11IcnYJDB954cRg/TROI5CakJ+8m5CE7UyjlTKIPsi4RG1KcoKa0K5iZgfA/T6k39xYJ6glbDqNKuY20AybVFi960YQA7pxxhtyeso6vohIsc1TPnBZSYGgbUlaelPlL/Ad6PWNwnDNvuyu1XFvhe+6kRuIsj+NmxI8MmDCxOQmpQ6zs+DR1eAf/9dNTVFk5MMdhD0MqIql6VpksGuGI6N9xdiXxXefzksS74qhK6UmhbOdmdaRSCxdJyPxgqwrpudhKOAyxeOz0YSH+WrRZYUx/BHeWouk9x7+zOEVZLKAutM8G8hM3FLR/qeD/et/cS9z0FP0csp4kUlU6hlVvdk52DENae2T5iLQDqEh7FDueE9pHZp4En9qzcShyyhLcLtGz4dmzg435YYLzZHXXbZZUAvU26IPc4gKx/LkFuQtsGPOeGhRwULXY6dNxyIVipvNwsaStU3/8M+5SqZd++sGvRxpnkJW+gs5iai24ZvcT536KGzXAeO0VmgiK3mRCYP3ZiRoQvcqGhAi58A1fCMAgrhaO1Vvbsindj7gXfpHGGRfHy88MldImVCUNGA0x5WegYy8nyHvRg3GkGwdtN/SHjld42DVCUfdaA=
+  - secure: PZzjqNshdvANTghsx6Lft2+0+mNzcxX5btuYbh3i206xdYRATClkkyUnw9fGIDi/GOO4kEGM3+nQSsNV1iDHv/yMdM0tsc/4e9RBqdMDcVR+CxWg5eSa+zsQkOooM7p6+BzVVYGYKgg8/kmOuvbBPq9F7Dl8KqaQizbF4sozIH5oKUptdU28nqOiECXWTqMi8n3x+UczxDuusj8LWl8ucMuWqdPRVcr5RdltuW0J2b8tnt0W7gD1Y/wFaxgaC6V1erwIrwgAEre5527ELWuUmCklPNBdcwRt/EGK8RgKX0f02GxXtFZBFap6H7ag6X7MXKZoVENhj+fbd0yiWOTEJyWUxEB98lQpqSTq37WeUHNgUiNFFvFXHp9VVS0VhH2RdNRlkZAUQ6D+YAdFPBpzRVlgbpP9SxODKJc3bBCmtDCYq7YQJzNwh/tOjgQIBoUgl8lM2DogwAF5kt8aFvFiaJsWiiI/DQ9glgOQSp1tqjZ1deaHB2RsSSv1qLBfiLL8IJ5VisY/L1OP6x8u5rfT12a8jDVxVBayo826ws5dc3adkUySy8yzF3SnzbISqLift/YkEfrlG3+oFjf/NXIjJM6icEXFxkWGorTlyd0C7RE59r0kn3Eic8xQ2Gpt5x0tOF9H1Nb9K3FnkOU4QFLoUsbJJ3vfJ1YKuUm9/A7G55s=
+  
+notifications:
+  email:
+    on_failure: always
