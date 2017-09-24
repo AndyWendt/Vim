@@ -51,6 +51,10 @@
 * `x` delete character under cursor
 * `3x` delete 3 characters forward.  Capital for reverse
 * `^D` delete all characters on line starting from first non-whitespace
-* `0D` delete all characters on line including whitespace		
+* `0D` delete all characters on line including whitespace	
 
 
+### Spell Check
+
+* Set spell: `:setlocal spell`
+* Add word: `zg`
