@@ -6,7 +6,7 @@
 * `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
 
-## Multiple cursors
+### Multiple cursors
 
 `ctrl+n`
 

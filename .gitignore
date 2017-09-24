@@ -2,4 +2,5 @@
 *.swp
 *.pdf
 _book
+travis.log
 
