@@ -14,8 +14,7 @@ install:
 
 script:
 - gitbook build
-
-after_success:
+- ls _book
 - ./deploy.sh
 
 cache:
