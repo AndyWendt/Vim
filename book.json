@@ -1,0 +1,10 @@
+{
+    "title": "Vynyl Handbook",
+    "description": "Vynyl Handbook",
+    "gitbook": ">= 3.2.0",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md",
+        "glossary": "GLOSSARY.md"
+    }
+}
