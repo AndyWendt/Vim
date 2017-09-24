@@ -1,6 +1,6 @@
 {
-    "title": "Vynyl Handbook",
-    "description": "Vynyl Handbook",
+    "title": "VIM Guide",
+    "description": "VIM Guide",
     "gitbook": ">= 3.2.0",
     "structure": {
         "readme": "README.md",
