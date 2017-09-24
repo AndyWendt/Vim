@@ -20,3 +20,8 @@ set complete=.,w,b,u                                                    "set des
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+" Set backup directory  https://stackoverflow.com/questions/821902/disabling-swap-files-creation-in-vim
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+set undodir=~/.vim/undo//
