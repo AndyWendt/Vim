@@ -5,6 +5,7 @@
 * `o` add line below and go into insert mode
 * `O` add line above and go into insert mode
 * `shift+>` or `shift+<` for indenting visually selected
+* `d$` [delete from current cursor position to the end of the current line](https://unix.stackexchange.com/questions/4415/delete-from-cursor-to-end-of-line-on-vi)
 
 ### Multiple cursors
 

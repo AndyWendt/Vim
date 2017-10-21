@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Learning Vim](src/learning.md)
 * [Vim](src/vim.md)
 * [Navigation](src/navigation.md)
 * [Editing](src/editing.md)

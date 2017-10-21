@@ -1,5 +1,6 @@
 # VIM
 
+
 * [Vim Configs](config/.vim/config)
 * [Plugins](config/.vim/plugins.vim)
 * [Keyboard shortcuts and guide](src/vim.md)
