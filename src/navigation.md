@@ -102,9 +102,10 @@
 * `:Gsearch` 
 	* replace in results file
 		* select all lines
-		* `:%s/<query>/<replace>` to replace the first match on each line
-		* `:%s/<query>/<replace>/g` to replace all matches on all lines
+		* `:s/<query>/<replace>` to replace the first match on each line
+		* `:s/<query>/<replace>/g` to replace all matches on all lines
 		* `:Greplace` to run the replace
+* `:%s/<query>/<replace>/g` to replace all matches on all lines
 
 #### Autocomplete for substitution
 
